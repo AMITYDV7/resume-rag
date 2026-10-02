@@ -58,3 +58,9 @@ The application uses a resume PDF as its knowledge source. Users can ask questio
                         │
                         ▼
                 Streamlit UI
+
+
+<img width="448" height="273" alt="Screenshot 2026-10-02 100333" src="https://github.com/user-attachments/assets/6fc66645-0af1-46bf-b277-c8106b682d2f" />
+
+
+
