@@ -1,19 +1,19 @@
+import os
 from langchain_groq import ChatGroq
-from dotenv import load_dotenv
-
-load_dotenv()
 
 llm = ChatGroq(
-    model="openai/gpt-oss-120b"
+    model="openai/gpt-oss-120b",
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 
 def ask_llm(content, query):
 
     prompt = f"""
-You are a helpful assistant which provide the answer based on the Context provided for my Question
-if you don't know the answer just return ' I don't know '
-also explain me why you don't know the answer.
+You are a helpful assistant which provides the answer based on the Context provided for my Question.
+
+If you don't know the answer, return "I don't know".
+Also explain why you don't know the answer.
 
 Context:
 {content}
