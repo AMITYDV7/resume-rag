@@ -20,6 +20,8 @@ The application uses a resume PDF as its knowledge source. Users can ask questio
 
 ---
 
+<img width="448" height="273" alt="Screenshot 2026-10-02 100333" src="https://github.com/user-attachments/assets/7585bfeb-5dcf-476a-8fc5-fc8a7607bf42" />
+
 ## 🏗️ Architecture
 
 ```text
@@ -60,7 +62,7 @@ The application uses a resume PDF as its knowledge source. Users can ask questio
                 Streamlit UI
 
 
-<img width="448" height="273" alt="Screenshot 2026-10-02 100333" src="https://github.com/user-attachments/assets/6fc66645-0af1-46bf-b277-c8106b682d2f" />
+
 
 
 
