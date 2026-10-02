@@ -1,11 +1,10 @@
-import os
+import streamlit as st
 from langchain_groq import ChatGroq
 
 llm = ChatGroq(
     model="openai/gpt-oss-120b",
-    api_key=os.getenv("GROQ_API_KEY")
+    api_key=st.secrets["GROQ_API_KEY"]
 )
-
 
 def ask_llm(content, query):
 
